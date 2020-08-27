@@ -1,7 +1,7 @@
 #ifndef _GO_YOLO_BINDING_H_
 #define _GO_YOLO_BINDING_H_
 
-#include <cv.h>
+#include <cv2.h>
 #include <highgui.h>
 
 // Mute compile warnings

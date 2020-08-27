@@ -1,5 +1,3 @@
-// Copyright 2017 <yummy.bian@gmail.com>. All rights reserved.
-
 // Package yolo provides darknet binding.
 package yolo
 
