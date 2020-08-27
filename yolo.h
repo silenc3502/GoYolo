@@ -1,8 +1,8 @@
 #ifndef _GO_YOLO_BINDING_H_
 #define _GO_YOLO_BINDING_H_
 
-#include <cv2.h>
-#include <highgui.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
 // Mute compile warnings
 void cuda_set_device(int n);
