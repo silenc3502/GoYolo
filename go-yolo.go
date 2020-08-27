@@ -2,7 +2,7 @@
 package yolo
 
 // #cgo pkg-config: opencv4
-// #cgo linux LDFLAGS: -ldarknet -lm -L/usr/local/cuda/lib64 -lcuda -lcudart -lcublas -lcurand -lcudnn
+// #cgo linux LDFLAGS: -ldarknet -lm -L/usr/local/cuda/lib64 -lcuda -lcudart -lcublas -lcurand -lcudnn -lstdc++
 // #cgo darwin LDFLAGS: -ldarknet
 // #include "yolo.h"
 import "C"
